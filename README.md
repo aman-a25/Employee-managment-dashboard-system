@@ -2,7 +2,9 @@
 A repository for maintaining and analyzing employee data of an organization
 
 ## managing and creating data 
+#### All of the code and files are in /dashboard folder in the repository
 in this project We're going to use mysql for database
+
 While the initial data set can be stored in csv , txt or excel file form 
 Mainly the python dashboard works Using pymysql librery 
 ### To install pymysql library use the command "pip install pymysql"
