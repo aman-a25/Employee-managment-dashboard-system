@@ -1,0 +1,30 @@
+On the database two tables are being maintained 1 is emp another one is emp_log 
+desc emp_log;
++---------------+----------+------+-----+---------+----------------+
+| Field         | Type     | Null | Key | Default | Extra          |
++---------------+----------+------+-----+---------+----------------+
+| logID         | int      | NO   | PRI | NULL    | auto_increment |
+| e_id          | int      | YES  |     | NULL    |                |
+| status        | text     | YES  |     | NULL    |                |
+| data_and_time | datetime | YES  |     | NULL    |                |
++---------------+----------+------+-----+---------+----------------+
+
+
+desc emp;
++--------+--------------+------+-----+---------+-------+
+| Field  | Type         | Null | Key | Default | Extra |
++--------+--------------+------+-----+---------+-------+
+| e_id   | int          | NO   | PRI | NULL    |       |
+| e_name | varchar(255) | YES  |     | NULL    |       |
+| post   | varchar(255) | YES  |     | NULL    |       |
+| salary | int          | YES  |     | NULL    |       |
++--------+--------------+------+-----+---------+-------+
+
+The sql query for creating these tables is given in db.Sql
+
+then we created 3 new triggers to keep automated log of all changes made in table emp to emp_log 
+trigger t1 for creating log in emp_log when data is inserted 
+trigger t2 for creating log in emp_log when data is updated 
+trigger t3 for creating log in emp_log when data is delete
+
+The sql query for creating these triggers  is given in db.Sql

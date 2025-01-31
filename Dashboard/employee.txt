@@ -1,0 +1,8 @@
+Employee ID,Employee Name,Employee Post,Employee Salary
+1,prakasha,manager,70000
+2,rahul,electrician,1550
+3,neha,receptionist,30000
+4,manish,electrician,20000
+5,parul,accountant,50000
+6,aman,engineer,25000
+7,dhoni,HR,190000
