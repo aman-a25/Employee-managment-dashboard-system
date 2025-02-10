@@ -10,8 +10,9 @@ Mainly the python dashboard works Using pymysql librery
 ### To install pymysql library use the command "pip install pymysql"
 
 ## analysing data 
-In this project we are going to use matplotlib and pandas library of python for the data analysis part and visualization
+In this project we are going to use matplotlib , scikit-learn and pandas library of python for the data analysis part and visualization
 ### To install matplotlib library use the command "pip install matplotlib"
+### To install scikit-learn library use the command "pip install scikit-learn"
 ### To install pandas library use the command "pip install pandas"
 
 
